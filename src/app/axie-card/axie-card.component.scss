@@ -1,0 +1,185 @@
+.card_item[data-v-024b6810] {
+  position: relative;
+}
+.card_item__header[data-v-024b6810] {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.card_item__icon_part_name[data-v-024b6810] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.card_item__part_name[data-v-024b6810] {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 6px;
+}
+.card_item__type[data-v-024b6810] {
+  font-size: 14px;
+  color: white;
+}
+.card_item__body[data-v-024b6810] {
+  position: relative;
+  background-color: #305360;
+  border-radius: 15px;
+  height: 340px;
+}
+.card_item__skill_name[data-v-024b6810] {
+  top: 20px;
+  left: 60px;
+  font-size: 18px;
+  padding: 0 8px;
+  text-align: center;
+  height: 34px;
+  width: 154px;
+}
+.card_item__energy[data-v-024b6810],
+.card_item__skill_name[data-v-024b6810] {
+  position: absolute;
+  color: #fff;
+  justify-content: center;
+  font-family: "Changa One", cursive;
+  display: flex;
+  align-items: center;
+}
+.card_item__energy[data-v-024b6810] {
+  font-size: 38px;
+  top: 6px;
+  left: 6px;
+  height: 56px;
+  width: 56px;
+  // text-shadow: #83152b -2px 0, #83152b 0 2px, #83152b 2px 0, #83152b 0 -2px;
+}
+.card_item__effect[data-v-024b6810] {
+  color: #fff;
+  position: absolute;
+  bottom: 46.25px;
+  left: 8.4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_item__effect_image[data-v-024b6810] {
+  width: 50%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.card_item__description[data-v-024b6810] {
+  color: #bbb;
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 24px 0 48px;
+  text-align: center;
+  height: 122px;
+  width: 100%;
+}
+.card_item__description[data-v-024b6810],
+.card_item__statistic[data-v-024b6810] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_item__statistic[data-v-024b6810] {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  background-color: #305360;
+}
+.card_item__statistic.aqua[data-v-024b6810] {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  background-color: #305360;
+}
+.card_item__statistic.plant[data-v-024b6810] {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  background-color:rgb(50 71 42);
+}
+.card_item__statistic.reptile[data-v-024b6810] {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  background-color:rgb(60 45 74);
+}
+.card_item__statistic.beast[data-v-024b6810] {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  background-color: rgb(80 57 47);
+}
+.card_item__statistic.bird[data-v-024b6810] {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  background-color: rgb(76 41 43);
+}
+.card_item__statistic.bug[data-v-024b6810] {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  background-color:rgb(76 41 43);
+}
+
+.card_item__statistic--defense.bug[data-v-024b6810] {
+  background-color:rgb(76 41 43);
+}
+.card_item__statistic--defense.bird[data-v-024b6810] {
+  background-color: rgb(76 41 43);
+}
+.card_item__statistic--defense.beast[data-v-024b6810] {
+  background-color: rgb(80 57 47);
+}
+.card_item__statistic--defense.reptile[data-v-024b6810] {
+  background-color:rgb(60 45 74);
+}
+.card_item__statistic--defense.plant[data-v-024b6810] {
+  background-color:rgb(50 71 42);
+}
+.card_item__statistic--defense.aqua[data-v-024b6810] {
+  background-color: #305360;
+}
+
+.card_item__statistic--attack[data-v-024b6810] {
+  position: absolute;
+  top: 64px;
+  left: -25px;
+}
+.card_item__statistic--defense[data-v-024b6810] {
+  position: absolute;
+  top: 124px;
+  left: -25px;
+}
+.card_item__statistic--defense .card_item__statistic_icon[data-v-024b6810] {
+  width: 24px;
+}
+.card_item__statistic--defense .card_item__statistic_value[data-v-024b6810] {
+  text-shadow: #025959 -2px 0, #025959 0 2px, #025959 2px 0, #025959 0 -2px;
+}
+.card_item__statistic_wrapper[data-v-024b6810] {
+  position: relative;
+}
+.card_item__statistic_icon[data-v-024b6810] {
+  width: 20px;
+}
+.card_item__statistic_icon[data-v-024b6810],
+.card_item__statistic_value[data-v-024b6810] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card_item__statistic_value[data-v-024b6810] {
+  font-family: "Changa One", cursive;
+  font-size: 26px;
+  color: #fff;
+  text-shadow: #83152b -2px 0, #83152b 0 2px, #83152b 2px 0, #83152b 0 -2px;
+}

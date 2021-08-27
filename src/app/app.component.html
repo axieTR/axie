@@ -1,0 +1,32 @@
+<div class="row" style="padding-left: 128px; padding-right: 128px; margin-top: 100px;">
+    <div class="col-md-3">
+      <app-dropdown [title]="'Sınıf'" [items]="classItems" (selectedItem)="classChange($event)"></app-dropdown>
+    </div>
+    <div class="col-md-3">
+      <app-dropdown [title]="'Saldırı Türü'" [items]="attackTypes" (selectedItem)="attackTypeChange($event)"></app-dropdown>
+    </div>
+    <div class="col-md-3">
+      <app-dropdown [title]="'Parça Türü'" [items]="partTypes" (selectedItem)="partTypeChange($event)"></app-dropdown>
+    </div>
+    <div class="col-md-3">
+      <app-dropdown [title]="'Enerji Maliyeti'" [items]="costItems" (selectedItem)="costChange($event)"></app-dropdown>
+    </div>
+    <!-- <div class="col-md-3">
+      <app-dropdown [title]="'Class'"  [items]="items"></app-dropdown>
+    </div>
+    <div class="col-md-3">
+      <app-dropdown [title]="'Part Type'"  [items]="items"></app-dropdown>
+    </div>
+    <div class="col-md-3">
+      <app-dropdown [title]="'Attack Type'"  [items]="items"></app-dropdown>
+    </div> -->
+</div>
+<div class="card_page__container custom_container custom_container_fluid">
+  <div class="cards" data-v-acce3762>
+    <ng-container *ngFor="let item of filteredData">
+      <axie-card [axie]="item"></axie-card>
+    </ng-container>
+  </div>
+
+
+</div>
